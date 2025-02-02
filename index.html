@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="the_css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                <img src="" alt="icon">
+            </h1>
+            <ul class="link-container" id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#skills">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+           </ul>
+            <a href="javascript:void(0);" class="icon" id="button" onclick="dropDownMenu()">
+                <i class="fa fa-bars"></i>
+            </a>    
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="holder">
+                <div class="img-holder" id="img1">
+
+                </div>
+                <div class="text-holder" >
+                    <h1>
+                       <span> Harold V. Veleña</span>
+                    </h1>
+                    <h2>
+                        19 yr
+                    </h2>
+                    <h2>
+                        I'm an aspiring programmer who dreams to become one of the best in the field. I study to hard to achieve my dreams, seeking opportunities that would help me along the journey. I also value creating connections with the people striving for the same goal and to share my knowledge to other people. at the end of the day, I take a moment to thank God for all the blessings given to me.
+                    </h2>
+                </div>
+            </div>
+            <div class="holder">
+                <div class="img-holder" id="img2">
+
+                </div>
+                <div class="text-holder">
+                    <h1>
+                        <span>The Dream</span>
+                    </h1>
+                    <h2>
+                        I'm actually fond of programming, this type of hobby is more like a profession rather than hobby but every time i learn something new its great inside. The things we achieve really matters, such as every line of code, every time we think, every time create, and error that occurs along the way. Each of these experiences creates an opportunity for us to grow and that why I love to code
+                    </h2>
+                </div>
+            </div>
+            <div class="holder">
+                <div class="img-holder" id="img3">
+
+                </div>
+                <div class="text-holder">
+                    <h1>
+                        <span>What Once Was</span>
+                    </h1>
+                    <h2>
+                        She was the motivation of my life and the reason why I chose this path. She was one the person i talk to who was really special to me, but now she will just be a memory and a part of me. I will always thank her for giving me her company. That's why I will become better so that  when we see each other, I can finally thank her once more. 
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <marquee behavior="" direction="right">
+            <div class="walking-div">
+                <img src="images/walking-cat.gif" alt="">
+                <h1>ITPS205</h1>
+                <img src="images/walking-cat.gif" alt="">
+                <h1>ASSIGNMENT #2</h1>
+                <img src="images/walking-cat.gif" alt="">
+                
+            </div>
+        </marquee>
+    </footer>
+    <script>
+        function dropDownMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
